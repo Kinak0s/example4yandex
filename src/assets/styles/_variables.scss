@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+$accent: #7395ae;
+$white: #ffe4c4;
+$dark: #232323;
+$darkest-accent: darken($accent, 30%);
+$dark-accent: darken($accent, 20%);
+
+$bx-accent: 0 4px 4px rgba($accent, 0.25);
+$bx-16: 0 3px 6px rgba(0, 0, 0, 0.16);
+
+$default-font: 'New Amsterdam', sans-serif;
+
+$mobile: 480px;

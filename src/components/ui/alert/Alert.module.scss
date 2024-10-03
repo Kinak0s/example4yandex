@@ -1,0 +1,25 @@
+@import 'src/assets/styles/variables';
+
+.alert {
+	width: 100%;
+	background-color: aquamarine;
+	color: aliceblue;
+	margin-bottom: 1rem;
+	animation: opacity 0.5s;
+	padding: 10px;
+	border-radius: 10px;
+
+	&.error {
+		background-color: rgb(213, 38, 38);
+		color: $white;
+	}
+
+	&.info {
+		background-color: cadetblue;
+	}
+
+	&.warning {
+		background-color: chocolate;
+		color: $white;
+	}
+}

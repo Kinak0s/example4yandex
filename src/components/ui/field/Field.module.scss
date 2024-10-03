@@ -1,0 +1,29 @@
+@import './../../../assets/styles/variables';
+
+.input {
+	display: flex;
+	align-items: center;
+	background-color: $dark-accent;
+	border: 1px solid transparent;
+	color: $dark;
+	font-size: 20px;
+	padding: 14px;
+	border-radius: 10px;
+	margin-bottom: 0.7rem;
+	outline: none;
+	width: 100%;
+
+	&:focus {
+		border-color: rgba($accent, 0.3);
+	}
+
+	&::placeholder {
+		color: $darkest-accent;
+	}
+}
+
+.error {
+	color: red;
+	font-size: 0.8rem;
+	margin-top: 0.2rem;
+}

@@ -1,0 +1,18 @@
+@import '../../../assets/styles/variables';
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	> button {
+		background-color: transparent;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		font-size: 30px;
+
+		> svg > path {
+			fill: #ffe4c4;
+		}
+	}
+}
